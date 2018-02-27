@@ -4,5 +4,5 @@ to test whether it is a prime number
 '''
     for i in range(2,int(x**0.5)+1):
         if x%i==0:
-            return True
-    return False
+            return False
+    return True
