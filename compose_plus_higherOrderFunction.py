@@ -10,5 +10,5 @@ def repeated(f, n):
         return compose(f, repeated(f, n - 1))
 
 def plus(x, y):
-    #implement plus using repeated and add1
+    #implement plus x + y  using repeated and add1
     return repeated(add1,y)(x)
