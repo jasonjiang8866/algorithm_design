@@ -1,3 +1,4 @@
+#enumerate=>map=>filter=>accumulate
 def even_fibs(n):
     return accumulate(lambda x,y:(x,)+y,(), tuple(
         filter(
