@@ -19,7 +19,7 @@ def shift_left_alt(num, n):
     #your code here
     if n==0:
         return num
-    if n==1:
+    elif n==1:
         return shift_one_left(num)
     else:
         return shift_left_alt(shift_left_alt(num, n-1), 1)
