@@ -10,3 +10,8 @@ int main()
     printf("%c\n",'C' + ('a' - 'A')+1 );\\bonus...character arithmetics
     return 0;
 }
+
+/*
+a=12 and b=12
+d
+*/
