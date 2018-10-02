@@ -1,5 +1,5 @@
 from itertools import combinations
-#given a list, lenght of subset and a number, return the subset whose total sum is equal to the number given
+
 class find_combo:
     def __init__(self, lst, num):
         self.lst=lst
@@ -29,4 +29,4 @@ class find_combo:
     def show_me_result(self, num):
         summy=self.sum_combo()
         diffy=self.diff_combo()
-        return {'sum':summy[num],'diff':diffy[num]}
+        return {'sum':summy.get(num),'diff':diffy.get(num)}
